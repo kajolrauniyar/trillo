@@ -7,16 +7,16 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        <script type="text/javascript">
-            var _smartsupp = _smartsupp || {};
-            _smartsupp.key = 'c47375f2b534e75ddea55de6d7582b9f685eff9f';
-            window.smartsupp||(function(d) {
-              var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-              s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-              c.type='text/javascript';c.charset='utf-8';c.async=true;
-              c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-            })(document);
-            </script>
+ <!--        <script type="text/javascript">
+     var _smartsupp = _smartsupp || {};
+     _smartsupp.key = 'c47375f2b534e75ddea55de6d7582b9f685eff9f';
+     window.smartsupp||(function(d) {
+       var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+       s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+       c.type='text/javascript';c.charset='utf-8';c.async=true;
+       c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+     })(document);
+     </script> -->
         
         <title>trillo &mdash; Your all-in-one booking app</title>
     </head>
@@ -54,7 +54,7 @@
             <div class="content">
                 <nav class="sidebar">
                    <ul class="side-nav">
-                       <li class="side-nav__item">
+                       <li class="side-nav__item side-nav__item-active">
                            <a href="" class="side-nav__link">
                                <svg class="side-nav__icon">
                                     <use xlink:href="img/sprite.svg#icon-home2"></use>
@@ -91,9 +91,120 @@
                         &copy:2019 by trillo.All rights reserved.
                     </div>
                 </nav>
+               <!--  navbar end -->
+                <!--  hotel view end -->
                 <main class="hotel-view">
-                    hotel view
+                  <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="img/hotel-1.jpg" alt="photo of hotel 1" class="gallery__photo">
+                    </figure>
+                     <figure class="gallery__item">
+                        <img src="img/hotel-2.jpg" alt="photo of hotel 2" class="gallery__photo">
+                    </figure>
+                     <figure class="gallery__item">
+                        <img src="img/hotel-3.jpg" alt="photo of hotel 3" class="gallery__photo">
+                    </figure>
+                   </div>
+                    <!--  hotel view end -->
+                     <!--  overview start -->
+                     <div class="overview">
+                       <h1 class="overview__heading">Hotels has plan </h1>
+                         <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                             <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                             <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                             <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                             <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                         </div>
+                          <!--  overview icon start end -->
+                           <!--  overviewlocation end -->
+                           <div class="overview__location">
+                              <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location2"></use>
+                            </svg>
+                            <button class="btn-inline">Suva Fiji</button>
+                           </div>
+                           <div class="overview__rating">
+                             <div class="overview__rating-average">9</div>
+                             <div class="overview__rating-count">490votes</div>
+                           </div>
+                     </div>
+                       
+                          <!--  overviewlocation end --> 
+                      
+                         <div class="details">
+                             <div class="description">
+                               <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi alias delectus at temporibus minima vel debitis vitae placeat pariatur, laudantium!</p>
+                                 <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi alias delectus at temporibus minima vel debitis vitae placeat pariatur, laudantium!</p>
+                                 <ul class="list">
+                                  <li class="list__item">enjoy the mountains</li>
+                                  <li class="list__item">enjoy the mountains</li><li class="list__item">enjoy the mountains</li><li class="list__item">enjoy the mountains</li><li class="list__item">enjoy the mountains</li><li class="list__item">enjoy the mountains</li><li class="list__item">enjoy the mountains</li><li class="list__item">enjoy the mountains</li>
+                                 </ul>
+                                 <div class="recommend">
+                                   <p class="recommend__count">Lorem ipsum dolor sit amet, consectetur </p>
+                                   <div class="recommend__friends">
+                                     <img src="img/user-1.jpg" alt="" class="recommend__photo">
+                                    <img src="img/user-6.jpg" alt="" class="recommend__photo">
+                                    <img src="img/user-3.jpg" alt="" class="recommend__photo">
+                                    <img src="img/user-4.jpg" alt="" class="recommend__photo">
+                                     <img src="img/user-5.jpg" alt="" class="recommend__photo">
+                                   </div>
+                                 </div>
+                             </div>
+                          
+                           <div class="user-reviews">
+                              <figure class="review">
+                                <blockquote class="review__text">
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, tenetur accusamus! Numquam esse dolore doloremque.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                  <img src="img/user.jpg" alt="" class="review__photo">
+                                  <div class="review__user-box">
+                                      <p class="review__user-name">Kajol</p>
+                                      <p class="review__user-date">31st may 2018</p>
+                                  </div>
+                                   <div class="review__rating">10</div>
+                                </figcaption>
+                              </figure>
+                              <figure class="review">
+                                <blockquote class="review__text">
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, tenetur accusamus! Numquam esse dolore doloremque.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                  <img src="img/user-5.jpg" alt="" class="review__photo">
+                                  <div class="review__user-box">
+                                      <p class="review__user-name">Ranbir Singh</p>
+                                      <p class="review__user-date">31st sep 2018</p>
+                                  </div>
+                                  <div class="review__rating">9.7</div>
+                                </figcaption>
+                              </figure>
+                              <!-- button start -->
+                              <button class="btn-inline ">Show all <span>&rarr;</span></button>
+                           </div>
+                         
+                         </div>
+                           <div class="cta">
+                             <h2 class="cta__book-now">Good News ! we have 4 free rooms for your selected dates</h2>
+                             <button class="btn">
+                              <span class="btn__visible">Book Now</span>
+                               <span class="btn__invisible">  only 4 rooms left</span>
+                             
+                             </button>
+                           </div>
+                      <!--  overview end -->
                 </main>
+                
             </div>
         </div>
     </body>
